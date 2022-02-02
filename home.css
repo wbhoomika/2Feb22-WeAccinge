@@ -1,0 +1,57 @@
+.intro {
+  text-align: center;
+}
+
+
+p { 
+  font-style: italic;
+}
+
+.quote-me{
+    color: rgb(61, 126, 90);
+    font-weight: bold;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.i-am,
+.i-like {
+  text-align: center;
+  text-decoration: none;
+}
+
+.about-list {
+  list-style: none;
+  padding: 0;
+}
+
+/* Responsive */
+@media (max-width: 480px) {
+  .about-grid {
+    grid-template-columns: 100%;
+  }
+}
+
+/* Project */
+.projects-heading {
+  text-align: center;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.project-image {
+  justify-self: center;
+  padding: 4%;
+}
+
+@media (max-width: 650px) {
+  .projects-grid {
+    grid-template-columns: 100%;
+  }
+}
